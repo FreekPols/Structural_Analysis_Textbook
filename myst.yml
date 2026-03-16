@@ -3,7 +3,7 @@ version: 1
 project:
   id: 7204695b-7485-4989-863c-16cf6e4db155
   title: Aircraft Structural Analysis and Design
-  description: An interactive course reader for for the TUDelft course "AE2135-I Aircraft Structural Analysis and Design"
+  description: An interactive course reader for the TUDelft course "AE2135-I Aircraft Structural Analysis and Design"
   # keywords: []
   authors:
     - name: Calvin Rans

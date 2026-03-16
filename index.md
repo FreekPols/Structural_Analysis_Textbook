@@ -17,7 +17,7 @@ site:
 :align: center
 ```
 
-_An interactive course reader for for the TUDelft course "AE2135-I Aircraft Structural Analysis and Design"_
+_An interactive course reader for AE2135-I: Aircraft Structural Analysis and Design_
 
 <div style="text-align: center", font-size: 1.2em>
 Dr. Calvin Rans
