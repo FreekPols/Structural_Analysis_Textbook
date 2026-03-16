@@ -1,7 +1,12 @@
+---
+numbering:
+  title:
+    offset: 0
+---
 ## Symmetrical Bending 
 The first case of bending we will examine is known as Symmetrical Bending (or sometimes just Simple Bending). It is characterized by bending where a moment $M$ acting within a given plane will only cause bending deformation within that plane. The conditions necessary for this to occur are that *a*) the cross-section of the beam contains at least one plane of symmetry (see {numref}`Fig:SymSec`) and *b*) the internal bending moment is aligned with or perpendicular to the cross-sectional plane of symmetry. 
 
-```{figure} ../figures/Symmetric_bending_sections_horz.svg
+```{figure} figures/Symmetric_bending_sections_horz.svg
 ---
 width: 80%
 name: Fig:SymSec
@@ -10,7 +15,7 @@ Examples of symmetric beam cross-sections.
 ```
 In this type of bending, it is customary to align the coordinate system of the beam such that the bending moment is aligned with the $x$-axis and bending occurs within the $yz$-plane. In many engineering applications, it is also common to orient the coordinate system with the $y$-axis pointing downwards such that distributed gravitational loads are positive (upper-left orientation in the figure below). However, it should be noted that this is simply a common convention, and the other three orientations of the coordinate system shown in the same figure are equivalent as they represent alternative views of the same beam and loading.
 
-```{figure} ../figures/Symmetric_bending.svg
+```{figure} figures/Symmetric_bending.svg
 ---
 width: 80%
 name: Fig:CoordPerspective
@@ -27,7 +32,7 @@ In order to analyze what happens to a beam in pure bending, we will first start 
 ### Deformation due to Bending
 Consider the flexible foam beam with a square cross-section illustrated in {numref}`Fig:SymBendDef`. A rectangular grid has been drawn on the beam to help visualize the deformation that occurs. What do you notice about this deformation?
 
-```{figure} ../figures/Bending_deformation_foam_beam.png
+```{figure} figures/Bending_deformation_foam_beam.png
 ---
 width: 80%
 name: Fig:SymBendDef
@@ -43,7 +48,7 @@ Referring to horizontal lines along the length of the beam in its undeformed sta
 Taking the above observations into account, we can sketch the deformation of the beam as shown below. Here we have introduced another set of points $P$ and $Q$ which define a fibre along the beam that does not change in length as a result of the deformation. We will call this line the {bdg-primary}`neutral plane` of the beam. Although we do not know precisely where it is located at the moment, we can postulate its existence from the fact that on side of the beam is compressed while the other side of the beam elongates. 
 
 
-```{figure} ../figures/Bending_deformation_drawing3.svg
+```{figure} figures/Bending_deformation_drawing3.svg
 ---
 width: 80%
 name: Fig:SymBendDefDraw
@@ -126,7 +131,7 @@ Thus ending up with the result expressed in eqn. {eq}`eq:stresscurvature`.
 In the previous section, we defined a linear relationship between the normal normal strains in a beam and the distance from the neutral plane of a beam; however, this relationship was in terms of the curvature of the beam. It would be more useful to be able to relate the internal stresses and strains in a beam to the moment loading rather than the beam curvature. 
 
 If we consider a beam under pure moment loading, the internal loading will simply be the bending moment, $M_x$, as illustrated in the figure below. We also observed in the previous section that bending will result in a internal normal stress state that varies linearly with the distance from the neutral plane. Realizing that the internal forces in the beam are simply resultants of the internal stress distribution, we can derive the relation between them by equating their resultants.
-```{figure} ../figures/FlexureFormulaRef2.svg
+```{figure} figures/FlexureFormulaRef2.svg
 ---
 width: 80%
 name: Fig:FlexFormRef
