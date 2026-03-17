@@ -1,6 +1,21 @@
 
 /* Code toegevoegd 17/05. Leuke kleurtjes zodat het makkelijk te zien is wat waar komt */
 
+/* Install accessible font */
+@font-face {
+  font-family: 'Atkinson';
+  src: url('font/AtkinsonHyperlegibleNext-Regular.otf') format('otf'),
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* dark mode white inverter */
+.dark img[src$=".svg"]:not(.no-invert) {
+  filter: invert(1) hue-rotate(180deg) saturate(0.75) contrast(1.15) brightness(0.88);
+  mix-blend-mode: plus-lighter;
+}
+
 /*Title color in dark mode*/
 .dark aside.admonition-experiment .dark\:text-white {
    color: rgb(23 25 25); 
