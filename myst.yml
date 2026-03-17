@@ -34,8 +34,13 @@ project:
       repo: https://github.com/executablebooks/thebe-binder-base
 
 
-  extends:
-  - toc.yml
+  toc:
+    - file: index.md                      # the landing page
+    - file: content/Bending/00_bending.md
+      children:
+      - file: content/Bending/01_sym_bending.md
+      - file: content/Bending/02_bia_bending.md
+      - file: content/Bending/03_unsym_bending.md
   
   abbreviations:
     FEM: Finite Element Method
