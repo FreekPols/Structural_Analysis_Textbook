@@ -155,3 +155,15 @@ display: block;
 }
 
 
+#skip-to-frontmatter {
+  margin-bottom: 0;
+  order: -2; /* Keep the original date first */
+}
+
+.article.content.article-grid {
+  display: grid;
+}
+
+.updated-date-container {
+  order: -1; /* Move it visually below the date */
+}
