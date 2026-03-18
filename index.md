@@ -4,6 +4,7 @@ site:
   hide_outline: true
   hide_toc: true
   hide_title_block: true
+no-update-date: true
 ---
 
 <div style="text-align: center">
