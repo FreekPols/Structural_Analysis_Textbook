@@ -19,7 +19,7 @@ project:
   
   plugins:
     - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/experiment/experiment.mjs
-    - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updated/page-last-updated.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updatedv1.1/page-last-updated.mjs
   
   # exports and downloads
   exports:
@@ -51,7 +51,8 @@ site:
   options:
     favicon: content/figures/favicon.ico      # path to your favicon
     style: css/custom.css
-    logo: content/figures/logo.svg          # path to your logo, shown top left at site
+    logo: css/tudelft.png
+    logo_dark: css/tudelft-dark.png
     folders: false
     hide_authors: true
 
